@@ -1,0 +1,25 @@
+.navbar ,.navbar .right{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .right ,.navbar .left{
+    background-color: aquamarine;
+    flex: 1;
+    margin: 2px;
+    padding: 20px;
+    
+}
+.navbar .right{
+    background-color: bisque;
+    flex: 2;
+    border-bottom: none;
+    justify-content: center;
+}
+.navbar .right a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 30px;
+}
